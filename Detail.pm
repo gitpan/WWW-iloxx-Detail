@@ -4,7 +4,7 @@ use strict;
 use Exporter;
 our @ISA = qw/Exporter/;
 our @EXPORT = qw/iloxxcheck/;
-our $VERSION = '0.1';
+our $VERSION = '0.2';
 use LWP::Simple;
 use LWP::UserAgent;
 
@@ -92,12 +92,9 @@ WWW::iloxx::Detail - Perl module for the iloxx online tracking service with deta
 
 =head1 AUTHOR
 
-    Stefan Gipper <stefanos@cpan.org>, http://www.coder-world.de/
+    -
 
 =head1 COPYRIGHT
-
-	WWW::iloxx::Detail is Copyright (c) 2010 Stefan Gipper
-	All rights reserved.
 
 	This program is free software; you can redistribute
 	it and/or modify it under the same terms as Perl itself.
